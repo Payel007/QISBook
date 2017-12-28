@@ -1,0 +1,8 @@
+      <ion-view view-title="Choose Idea to edit">
+        <ion-content>
+          <ion-list ng-controller="editController">
+            <ion-item ng-repeat="edit in editRecipes" class = "recListing">  <a ui-sref="app.editidea({id:edit.$id})" nav-direction="enter" ><h2>Edit {{edit.recipeName}}</h2> </a>
+            </ion-item>
+          </ion-list>
+        </ion-content>
+      </ion-view>

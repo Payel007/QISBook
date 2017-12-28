@@ -1,0 +1,19 @@
+ <ion-view view-title="Ideas" >
+        <ion-content>
+          <div ng-controller="recipeController">
+          <h4>{{singleRecipe.recipeName}}</h4>
+          <h4>Problem Statment:</h4>
+          <ion-list type="inset-list">
+            <ion-item ng-repeat="ing in ingList">
+              {{ing}}
+            </ion-item>
+          </ion-list>
+          <h4>Solution Details:</h4>
+          <ion-list type="inset-list">
+            <ion-item ng-repeat="prep in prepList">
+              {{prep}}
+            </ion-item>
+            </ion-list>
+          </div>
+        </ion-content>
+      </ion-view>
