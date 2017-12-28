@@ -14,4 +14,4 @@ Current Capabilities:
 
 A video is added for this DEMO purpose of this app
 
-[![QIS Book Mobile App sample](https://youtu.be/cFp7FAmAfpw "QIS BookMobile App")
+https://www.youtube.com/watch?v=cFp7FAmAfpw
